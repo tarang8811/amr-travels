@@ -1,0 +1,202 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Travel Agency</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <link rel="icon" href="images/favicon.png" type="image/x-icon">
+        
+        <!-- Google Fonts -->	
+        <link href="https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i,900,900i%7CMerriweather:300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
+        
+        <!-- Bootstrap Stylesheet -->	
+        <link rel="stylesheet" href="css/bootstrap.min4.2.1.css">
+        <link rel="stylesheet" type="text/css" href="css/bootstrap-reboot4.2.1.css">
+
+        <!-- Sidebar Stylesheet -->
+        <link rel="stylesheet" type="text/css" href="css/jquery.mCustomScrollbar.min.css">
+        
+        <!-- Font Awesome Stylesheet -->
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+            
+        <!-- Custom Stylesheets -->	
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" id="cpswitch" href="css/orange.css">
+        <link rel="stylesheet" href="css/responsive.css">
+    
+        <!-- Owl Carousel Stylesheet -->
+        <link rel="stylesheet" href="css/owl.carousel.css">
+        <link rel="stylesheet" href="css/owl.theme.css">
+        
+        <!-- Flex Slider Stylesheet -->
+        <link rel="stylesheet" href="css/flexslider.css" type="text/css" />
+        
+        <!--Date-Picker Stylesheet-->
+        <link rel="stylesheet" href="css/datepicker.css">
+
+        <!--Main Stylesheet-->
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    
+    
+    <body id="tour-homepage" data-spy="scroll">
+    
+        <!--====== LOADER =====-->
+        <div class="loader"></div>
+    
+        <!--============= TOP-BAR ===========-->
+        <div id="top-bar" class="tb-text-white">
+            <div class="container">
+                <div class="row">          
+                    <div class="col-12 col-md-6 col-lg-6 col-xl-6">
+                        <div id="info">
+                            <ul class="list-unstyled list-inline">
+                                <li class="list-inline-item"><span><i class="fa fa-phone"></i></span>+91 98323 02122 +91 80011 12122</li>
+                            </ul>
+                        </div><!-- end info -->
+                    </div><!-- end columns -->
+                    
+                    <div class="col-12 col-md-6 col-lg-6 col-xl-6">
+                        <div id="links">
+                            <ul class="list-unstyled list-inline">
+                                <li class="list-inline-item special">✈️ Special Offline Bookings for Druk Air(Bhutan) and Buddha Air(Nepal) ✈️ </li>                            
+                            </ul>
+                        </div><!-- end links -->
+                    </div><!-- end columns -->				
+                </div><!-- end row -->
+            </div><!-- end container -->
+        </div><!-- end top-bar -->
+
+
+		<!--========================= FLEX SLIDER =====================-->
+        <section class="flexslider-container" id="flexslider-container-6">
+        	
+            <div class="header-absolute">
+                <nav class="navbar navbar-expand-xl main-navbar navbar-custom navbar-transparent bg-transparent nav-links-active" id="mynavbar">
+                    <div class="container">
+                    
+                        <a href="#" class="navbar-brand py-1 my-auto"><img class="main-logo" src="images/logo.png" /></a>
+                        <div class="header-search d-xl-none my-auto ml-auto py-1">
+                            <a href="#" class="search-button" onclick="openSearch()"><span><i class="fa fa-search"></i></span></a>
+                        </div>
+                        <button class="navbar-toggler ml-2" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" id="sidebarCollapse">
+                            <i class="fa fa-navicon py-1"></i>
+                        </button>
+                    
+                        <div class="collapse navbar-collapse" id="myNavbar1">
+                            <ul class="navbar-nav ml-auto navbar-search-link">
+                                <li class="nav-item"><a class="nav-link px-4" href="index.html">Home</a></li>
+                                <li class="nav-item"><a class="nav-link px-4" href="index.html#hot-tour">Offers</a></li>
+                                <li class="nav-item"><a class="nav-link px-4" href="index.html#testimonials">Soto Fares</a></li>
+                                <li class="nav-item"><a class="nav-link px-4" href="index.html#tour-offers">Packages</a></li>
+                                <li class="nav-item active"><a class="nav-link px-4" href="#">Agent Login </a></li>
+                                <li class="nav-item"><a class="nav-link px-4" href="index.html#contact-form">Contact Us</a></li>
+                            </ul>
+                        </div><!-- end navbar collapse -->
+                    </div><!-- End container -->
+                 </nav><!-- end navbar -->
+            </div><!-- end header-absolute -->
+            
+            <div class="sidenav-content">
+                <!-- Sidebar  -->
+                <nav id="sidebar" class="sidenav">
+                    <h2 id="web-name"><span><i class="fa fa-plane"></i></span>Amr Travels</h2>
+            
+                    <div id="main-menu">
+                        <div id="dismiss">
+                            <button class="btn" id="closebtn">&times;</button>
+                        </div>
+                        <div class="list-group panel">
+                                    <a class="items-list active" href="#tour-homepage">
+                                    <span><i class="fa fa-home link-icon"></i></span>Home</a>
+            
+                                    <a class="items-list" href="#hot-tour"><span><i class="fa fa-building link-icon"></i></span>Offers</a>
+                                    <a class="items-list" href="#testimonials" class="il"><span><i class="fa fa-globe link-icon"></i></span>Soto Fares</a>
+                                    <a class="items-list" href="#tour-offers" class="il"><span><i class="fa fa-globe link-icon"></i></span>Packages</a>
+                                    
+                                    <a class="items-list" href="#testimonials" href="#"><span><i class="fa fa-ship link-icon"></i></span>Agent Login</a>
+            
+                                    <a class="items-list" href="#contact-form" href="#cars-links"><span><i class="fa fa-car link-icon"></i></span>Contact Us</a>
+            
+                        </div><!-- End list-group panel -->
+                    </div><!-- End main-menu -->
+                </nav>
+            </div><!-- End sidenav-content -->
+        
+            <div class="flexslider slider tour-slider" id="slider-6">
+                <ul class="slides">
+
+                    <li class="item-1 back-size" style="background:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(images/plane-image-1.jpg) 50% 65%; background-size:cover; height:100%;">
+                        <div class="meta">         
+                        <div class="container" style="text-align: center;">
+                            <h2 style="position: relative; top: 220px;">Coming Soon</h2>
+                        </div><!-- end container -->  
+                    </div><!-- end meta -->
+                    </li><!-- end item-1 -->   
+                </ul>
+            </div><!-- end slider -->
+        </section><!-- end flexslider-container -->
+        
+        
+        <!--======================= FOOTER =======================-->
+        <section id="footer" class="ftr-heading-w ftr-heading-mgn-2">
+        
+            <div id="footer-top" class="banner-padding ftr-top-grey ftr-text-grey">
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-12 col-md-12 col-lg-5 col-xl-5 footer-widget ftr-about ftr-our-company">
+                            <h3 class="footer-heading">OUR COMPANY</h3>
+                            <p>AMR Travels  took its first step as an independent entrepreneur venture in 2005. One that was small yet significant, nascent yet dynamic. Undeterred by competition, and buoyed by a pioneering spirit, we forged ahead slowly but surely.
+                                There are many reasons for this astronomical growth: foremost being our innovative approach that has inspired the company to evolve technology, using the latest technological tools in becoming a trend setter in the travel information business.
+                                </p>
+                            <ul class="social-links list-inline list-unstyled">
+                            	<li class="list-inline-item"><a href="https://www.facebook.com/amrtravelstour/" target="_blank"><span><i class="fa fa-facebook"></i></span></a></li>
+                            </ul>
+                        </div><!-- end columns -->
+                        
+                        <div class="col-12 col-md-12 col-lg-7 col-xl-7 footer-widget ftr-map">
+                            <div class="map">
+                                <iframe src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJe1HhHjkRrjsRJ3ovJVpbD6Y&key=AIzaSyBnJ_zJzd_2S_bNptU5stOcXFSRTQTeABk" allowfullscreen></iframe>
+                            </div>
+                        </div><!-- end columns -->
+                        
+                    </div><!-- end row -->
+                </div><!-- end container -->
+            </div><!-- end footer-top -->
+
+            <div id="footer-bottom" class="ftr-bot-black">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-md-6 col-lg-6 col-xl-6" id="copyright">
+                            <p>© 2019 <a href="#">AMR TRAVELS</a>. All rights reserved.</p>
+                        </div><!-- end columns -->
+                        
+                        <div class="col-12 col-md-6 col-lg-6 col-xl-6" id="terms">
+                            <ul class="list-unstyled list-inline">
+                            	<li class="list-inline-item"><a href="#">Terms & Condition</a></li>
+                                <li class="list-inline-item"><a href="#">Privacy Policy</a></li>
+                            </ul>
+                        </div><!-- end columns -->
+                    </div><!-- end row -->
+                </div><!-- end container -->
+            </div><!-- end footer-bottom -->
+            
+        </section><!-- end footer -->
+        
+        
+        <!-- Page Scripts Starts -->
+        <script src="js/jquery-3.3.1.min.js"></script>
+        <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+        <script src="js/bootstrap.min4.2.1.js"></script>
+        <script src="js/jquery.flexslider.js"></script>
+        <script src="js/bootstrap-datepicker.js"></script>
+        <script src="js/owl.carousel.min.js"></script>
+        <script src="js/custom-navigation.js"></script>
+        <script src="js/custom-flex.js"></script>
+        <script src="js/custom-owl.js"></script>
+        <script src="js/custom-date-picker.js"></script>
+        <!-- Page Scripts Ends -->
+        
+    </body>
+</html>

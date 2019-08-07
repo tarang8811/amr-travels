@@ -1,0 +1,31 @@
+.main-logo {
+  width: 130px;
+  top: 3px;
+  position: relative;
+}
+
+.special {
+  color: white;
+  font-weight: bold;
+}
+
+.hot-tour-title{
+  font-size: 32px !important;
+}
+
+.hot-tour-text p {
+  font-size: 24px !important;
+  margin: 16px 0px !important;
+  color: #3e3e3e;
+  font-weight: 500 !important;
+}
+
+.hot-tour-text h3 {
+  margin-bottom: 40px;
+}
+
+.soto-logo {
+  width: 100px;
+  border-radius: 50px;
+  margin: 0px 10px;
+}
