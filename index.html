@@ -89,7 +89,7 @@
                                 <li class="nav-item"><a class="nav-link px-4" href="#hot-tour">Offers</a></li>
                                 <li class="nav-item"><a class="nav-link px-4" href="#testimonials">Soto Fares</a></li>
                                 <li class="nav-item"><a class="nav-link px-4" href="#tour-offers">Packages</a></li>
-                                <li class="nav-item"><a class="nav-link px-4" href="https://portal.amrtravels.in">Agent Login </a></li>
+                                <li class="nav-item"><a class="nav-link px-4" id='agent-login'>Agent Login </a></li>
                                 <li class="nav-item"><a class="nav-link px-4" href="#contact-form">Contact Us</a></li>
                             </ul>
                         </div><!-- end navbar collapse -->
@@ -114,7 +114,7 @@
     
                             <a class="items-list" href="#tour-offers" class="il"><span><i class="fa fa-globe link-icon"></i></span>Packages</a>
                             <a class="items-list" href="#testimonials" class="il"><span><i class="fa fa-globe link-icon"></i></span>Soto Fares</a>
-                            <a class="items-list" href="#testimonials" href="https://portal.amrtravels.in"><span><i class="fa fa-ship link-icon"></i></span>Agent Login</a>
+                            <a id="agent-login-1" class="items-list" href="#testimonials"><span><i class="fa fa-ship link-icon"></i></span>Agent Login</a>
     
                             <a class="items-list" href="#contact-form" href="#cars-links"><span><i class="fa fa-car link-icon"></i></span>Contact Us</a>
             
@@ -451,7 +451,14 @@
             
         </section><!-- end footer -->
         
-        
+        <script>
+            document.getElementById("agent-login").onclick = function () {
+                location.href = "https://portal.amrtravels.in/";
+            };
+            document.getElementById("agent-login-1").onclick = function () {
+                location.href = "https://portal.amrtravels.in/";
+            };
+        </script>
         <!-- Page Scripts Starts -->
         <script src="js/jquery-3.3.1.min.js"></script>
         <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
